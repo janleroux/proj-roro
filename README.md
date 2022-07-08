@@ -7,10 +7,4 @@ The Roro wireless part is based on a RFM95 module which allows the user to send 
 
 Roro's mcu part use an ESP32 module from Espressif Systems. The ESP32 is a well known, widely used ultra-low-power microcontroller that incorporate connectivity options such as Wi-Fi and Bluetooth. It offers two CPU cores that can be individually controlled,and the CPU clock frequency is adjustable from 80 MHz to 240 MHz. The chip also has a low-powerco-processor that can be used instead of the CPU to save power while performing tasks that do not require muchcomputing power, such as monitoring of peripherals. ESP32 integrates a rich set of peripherals, ranging fromcapacitive touch sensors, Hall sensors, SD card interface, Ethernet, high-speed SPI, UART, I²S and I²C
 
-## Features
-- ESP32 MCU
-- RFM95 LoRa Wireless Modem
-- Pre-loaded with bootloader
-- Wi-Fi, 2.4 GHz ~2.5 GHz, 802.11 b/g/n (802.11n up to 150 Mbps)
-- Bluetooth (Bluetooth v4.2 BR/EDR and BLE specification)
-
+(Roro Wiki)[https://github.com/janleroux/leru-roro/wiki]
