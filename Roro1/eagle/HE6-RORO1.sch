@@ -6963,8 +6963,8 @@ SparkFun BigTime Watch Kit&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
 <part name="R5" library="JLR" deviceset="RES" device="0805-RES" value="10K"/>
 <part name="+3V1" library="supply1" deviceset="+3V3" device=""/>
 <part name="NEO" library="SparkFun-LED" library_urn="urn:adsk.eagle:library:529" deviceset="WS2812B" device="" package3d_urn="urn:adsk.eagle:package:39369/1" value="WS2812B"/>
-<part name="RST" library="SparkFun-Switches" library_urn="urn:adsk.eagle:library:535" deviceset="MOMENTARY-SWITCH-SPST" device="-SMD-6.0X3.5MM" package3d_urn="urn:adsk.eagle:package:40165/1" value="MOMENTARY-SWITCH-SPST-SMD-6.0X3.5MM"/>
-<part name="PGM" library="SparkFun-Switches" library_urn="urn:adsk.eagle:library:535" deviceset="MOMENTARY-SWITCH-SPST" device="-SMD-6.0X3.5MM" package3d_urn="urn:adsk.eagle:package:40165/1" value="MOMENTARY-SWITCH-SPST-SMD-6.0X3.5MM"/>
+<part name="RST" library="SparkFun-Switches" library_urn="urn:adsk.eagle:library:535" deviceset="MOMENTARY-SWITCH-SPST" device="-SMD-RIGHT-ANGLE" package3d_urn="urn:adsk.eagle:package:40169/1" value="MOMENTARY-SWITCH-SPST-SMD-RIGHT-ANGLE"/>
+<part name="PGM" library="SparkFun-Switches" library_urn="urn:adsk.eagle:library:535" deviceset="MOMENTARY-SWITCH-SPST" device="-SMD-RIGHT-ANGLE" package3d_urn="urn:adsk.eagle:package:40169/1" value="MOMENTARY-SWITCH-SPST-SMD-RIGHT-ANGLE"/>
 <part name="U$2" library="microbuilder" deviceset="VBAT" device=""/>
 <part name="GND2" library="supply1" deviceset="GND" device=""/>
 <part name="C1" library="JLR" deviceset="CAP" device="0805" value="1nF"/>
@@ -7498,26 +7498,26 @@ SparkFun BigTime Watch Kit&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
 </net>
 <net name="TXD2" class="0">
 <segment>
-<pinref part="U3" gate="G$1" pin="IO16"/>
-<wire x1="210.82" y1="121.92" x2="213.36" y2="121.92" width="0.1524" layer="91"/>
-<label x="213.36" y="121.92" size="1.27" layer="95" xref="yes"/>
-</segment>
-<segment>
 <pinref part="J3" gate="G$1" pin="6"/>
 <wire x1="99.06" y1="48.26" x2="101.6" y2="48.26" width="0.1524" layer="91"/>
 <label x="101.6" y="48.26" size="1.27" layer="95" xref="yes"/>
 </segment>
-</net>
-<net name="RXD2" class="0">
 <segment>
 <pinref part="U3" gate="G$1" pin="IO17"/>
 <wire x1="210.82" y1="119.38" x2="213.36" y2="119.38" width="0.1524" layer="91"/>
 <label x="213.36" y="119.38" size="1.27" layer="95" xref="yes"/>
 </segment>
+</net>
+<net name="RXD2" class="0">
 <segment>
 <pinref part="J3" gate="G$1" pin="7"/>
 <wire x1="99.06" y1="50.8" x2="101.6" y2="50.8" width="0.1524" layer="91"/>
 <label x="101.6" y="50.8" size="1.27" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="U3" gate="G$1" pin="IO16"/>
+<wire x1="210.82" y1="121.92" x2="213.36" y2="121.92" width="0.1524" layer="91"/>
+<label x="213.36" y="121.92" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="SDA" class="0">
