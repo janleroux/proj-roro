@@ -23,7 +23,7 @@ RgbColor orange(255,128,0);
 RgbColor grey(20,20,20);
 RgbColor black(0);
 NeoPixelBus<NeoGrbFeature, Neo800KbpsMethod> strip(PixelCount, PixelPin);
-int flashDelay = 2000;
+int flashDelay = 1000;
 
 
 void setup() {
