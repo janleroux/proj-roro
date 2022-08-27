@@ -113,8 +113,6 @@ void Tx() {
   Serial.print("Tx: ");
   Serial.println(txMsg);
 
-  delay(250); //Add delay to avoid multiple messages for the same plink
-
   strip.SetPixelColor(0, black);
   strip.Show();
 }
@@ -147,8 +145,10 @@ void Rx() {
     Serial.println(LoRa.packetRssi());
 
     myTurnToTx = true; //enable the my-turn-to-Tx flag
-
+ 
     strip.SetPixelColor(0, black);
     strip.Show();
+
+    delay(5000);
   }
 }
