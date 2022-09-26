@@ -245,7 +245,7 @@
 <wire x1="52.256" y1="9.389" x2="53.882" y2="8.847" width="0.152" layer="151"/>
 <wire x1="53.882" y1="8.847" x2="52.256" y2="8.306" width="0.152" layer="151"/>
 <wire x1="52.663" y1="8.441" x2="52.663" y2="9.254" width="0.152" layer="151"/>
-<text x="3.937" y="10.287" size="1.016" layer="51" font="vector" ratio="20" rot="R90">HE6-RORO2</text>
+<text x="3.937" y="10.287" size="1.016" layer="51" font="vector" ratio="20" rot="R90">HE6-RORO1</text>
 <polygon width="0.1524" layer="41">
 <vertex x="0" y="23.495"/>
 <vertex x="6.985" y="23.495"/>
@@ -281,11 +281,11 @@
 <text x="25.7175" y="24.4475" size="0.6096" layer="51" font="vector" ratio="20" rot="R270">IO33</text>
 <text x="23.1775" y="24.4475" size="0.6096" layer="51" font="vector" ratio="20" rot="R270">VN</text>
 <text x="20.6375" y="24.4475" size="0.6096" layer="51" font="vector" ratio="20" rot="R270">VP</text>
-<text x="18.0975" y="24.4475" size="0.8128" layer="51" font="vector" ratio="20" rot="R270">GND</text>
-<text x="15.5575" y="24.4475" size="0.8128" layer="51" font="vector" ratio="20" rot="R270">RST</text>
-<text x="13.0175" y="24.4475" size="0.8128" layer="51" font="vector" ratio="20" rot="R270">3V3</text>
-<text x="10.4775" y="24.4475" size="0.8128" layer="51" font="vector" ratio="20" rot="R270">RXD0</text>
-<text x="7.9375" y="24.4475" size="0.8128" layer="51" font="vector" ratio="20" rot="R270">TXD0</text>
+<text x="18.0975" y="24.4475" size="0.6096" layer="51" font="vector" ratio="20" rot="R270">GND</text>
+<text x="15.5575" y="24.4475" size="0.6096" layer="51" font="vector" ratio="20" rot="R270">RST</text>
+<text x="13.0175" y="24.4475" size="0.6096" layer="51" font="vector" ratio="20" rot="R270">3V3</text>
+<text x="10.4775" y="24.4475" size="0.6096" layer="51" font="vector" ratio="20" rot="R270">RXD0</text>
+<text x="7.9375" y="24.4475" size="0.6096" layer="51" font="vector" ratio="20" rot="R270">TXD0</text>
 <wire x1="0.15875" y1="27.78125" x2="50.64125" y2="27.78125" width="0.1524" layer="52"/>
 <wire x1="50.64125" y1="27.78125" x2="50.46125" y2="0.15" width="0.1524" layer="52"/>
 <wire x1="50.46125" y1="0.15" x2="-0.18" y2="0.15" width="0.1524" layer="52"/>
